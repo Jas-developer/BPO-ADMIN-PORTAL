@@ -4,7 +4,7 @@ export default function App() {
   const STATUS: boolean = true;
   if (STATUS == true) {
     return (
-      <div>
+      <div className="bg-gray-300">
         <HomePage />
       </div>
     );
